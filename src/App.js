@@ -8,7 +8,7 @@ export default function App() {
     // pegando array e a função(por ela que o array poderá ser modificado) retornada por useState
     // const result = React.useState("Yes")
 
-    // O valor definido entre parenteses, será o valor padrao do State
+    // O valor definido entre parenteses, será o valor padrao do State, que depois é atribuido a isImportant
     // destructuring array(pegando o que for utilizar)
     const [isImportant, setIsImportant] = React.useState("Yes")
 
